@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shoe Mart - Shop</title>
+  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="assets/css/shop.css">
+</head>
+<body>
+   <header class="header">
+    <div class="header-container">
+      <!-- Top row: search + icons -->
+      <div class="header-top">
+        <div class="search-box">
+          <input type="text" id="search" placeholder="Search shoes...">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="icons">
+          <a href="wishlist.html"><i class="fas fa-heart"></i></a>
+          <a href="carts.html" class="cart-link"><i class="fas fa-shopping-bag"></i></a>
+          <a href="login.html" class="icon"><i class="fas fa-user-circle"></i></a>
+        </div>
+      </div>
+
+      <!-- Bottom row: logo + nav -->
+      <div class="header-bottom">
+        <div class="logo">
+          <img src="logoshoemart.png" alt="Shoe Mart Logo">
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#">Style Hub</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Step Into Style</h1>
+      <p>Explore our full collection of shoes built for every moment — from everyday essentials to statement-makers.</p>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="products">
+         <h2>Our Products</h2> 
+         <div id="product-list" class="product-list"></div> 
+    </section>
+
+    <!-- Order Summary -->
+    <section id="order-summary" class="order-summary">
+      <h2>Order Summary</h2>
+      <p>Items: 2</p>
+      <p>Total: ₹2598</p>
+      <button>Checkout</button>
+    </section>
+  </main>
+
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Logo + links -->
+      <div class="footer-section">
+        <h2 class="footer-logo"><img src="logoshoemart.png" alt="Shoe Mart Logo"></h2>
+        <ul class="footer-links">
+          <li><a href="#">Style Hub</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Shop Categories -->
+      <div class="footer-section">
+        <h3>Shops</h3>
+        <ul class="footer-links">
+          <li><a href="#">Sneakers</a></li>
+          <li><a href="#">Retro & Classic</a></li>
+          <li><a href="#">Collections</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <ul class="contact-info">
+          <li><i class="fas fa-map-marker-alt"></i> 123 Shoe Street, Reva Plaza, Mad</li>
+          <li><i class="fas fa-envelope"></i> shoemart@walkonshoes.com</li>
+          <li><i class="fas fa-phone"></i> +1 (800) 123-4567</li>
+          <li><i class="fas fa-headset"></i> support@walkonshoes.com</li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-google"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/css/shop.js"></script>
+</body>
+</html>

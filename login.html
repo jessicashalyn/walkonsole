@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shoe Mart - Login / Signup</title>
+  <link rel="stylesheet" href="login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login to Shoe Mart</h2>
+
+    <!-- Username/Email -->
+    <div class="input-box">
+      <input type="text" placeholder="Enter your username/email">
+    </div>
+
+    <!-- Password -->
+    <div class="input-box">
+      <input type="password" placeholder="Enter your password">
+    </div>
+
+    <!-- Remember Me -->
+    <div class="remember-me">
+      <input type="checkbox" id="remember">
+      <label for="remember">Remember Me?</label>
+    </div>
+
+    <!-- Login Button -->
+    <button class="login-btn">Login</button>
+
+    <!-- Forgot Password -->
+    <div class="forgot-password">
+      <a href="#">Forgot Password?</a>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider">
+      <span>or</span>
+    </div>
+
+    <!-- Social Login -->
+    <div class="social-login">
+      <a href="#"><i class="fab fa-google"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <main class="signin-container">
+  <div class="signin-box">
+    <h2>Welcome to Shoe Mart</h2>
+    <p>Create your account to start shopping with us.</p>
+    <form>
+      <div class="input-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Enter your name" required>
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create a password" required>
+      </div>
+      <div class="input-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+      </div>
+      <button type="submit" class="btn">Sign Up</button>
+      <p>Already have an account?<a href="login.html">Sign In</a></p>
+    </form>
+  </div>
+</main>
+</body>
+</html>
